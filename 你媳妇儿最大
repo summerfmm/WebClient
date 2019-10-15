@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Title</title>    <!-- 这个就是网页显示的标题 -->
+</head>
+<body>
+    <!-- 这里就是写代码的地方，当前这种格式写的内容在网页上不会显示出来，这种格式叫注释 -->
+    aaaa
+    <br/>   <!-- 这个符号叫换行，就是换一行显示 -->
+    bbbbb
+    <hr/>   <!-- 这个符号叫分隔线，chrome 打开就能看到 -->
+    cccc
+    <b>  <br>
+	keshunfeng  sb
+	 <b/>  <br/>
+	<b> <br>
+	ksf 四眼
+	<b> <br>
+	<img src="a.jpg"  width="200"  height="320"/>
+	<br/>柯顺锋<i> 爱摸头发</i><mark>   吃饭慢</mark>
+	<pre>
+	爱看视频 
+	一睁开眼睛    就看
+	<progress value="25"max="100">
+	</progress>
+	</pre>
+	<ruby>
+	柯<rp>(</rp><rt>ke</rt><rp>)</rp>
+	顺<rp>(</rp><rt>shun</rt><rp>)</rp>
+	锋<rp>(</rp><rt>feng</rt><rp>)</rp>
+	</ruby>
+	<p>柯顺锋<pre><sub>老是熬夜 打游戏到三四点<sub/><pre/></p>
+	<p>柯顺锋<sub>老熬夜打游戏</sub>到三四点</p>
+	
+<p><strong>你能做到几点    
+<form action="demo-form.php">
+ <input list="browsers">
+ </strong> <datalist id="browsers">
+  <option value="不抓头发">
+  <option value="早睡觉">
+  <option value="少看手机">
+  <option value="多吃蔬果">
+  <input type="submit" value="提交">
+  </form>
+</datalist>
+	</body>
+</html>
