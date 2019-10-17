@@ -5,18 +5,17 @@
     <title>Title</title>    <!-- 这个就是网页显示的标题 -->
 </head>
 <body>
-    <!-- 这里就是写代码的地方，当前这种格式写的内容在网页上不会显示出来，这种格式叫注释 -->
     aaaa
-    <br/>   <!-- 这个符号叫换行，就是换一行显示 -->
+    <br/>   
     bbbbb
-    <hr/>   <!-- 这个符号叫分隔线，chrome 打开就能看到 -->
+    <hr/>   
     cccc
-    <b>  <br>
+    <b>  <br>   <!-- b br 格式错误 -->
 	keshunfeng  sb
 	 <b/>  <br/>
 	<b> <br>
 	ksf 四眼
-	<b> <br>
+	<b> <br>   <!-- b br 格式错误 -->
 	<img src="a.jpg"  width="200"  height="320"/>
 	<br/>柯顺锋<i> 爱摸头发</i><mark>   吃饭慢</mark>
 	<pre>
@@ -33,10 +32,10 @@
 	<p>柯顺锋<pre><sub>老是熬夜 打游戏到三四点<sub/><pre/></p>
 	<p>柯顺锋<sub>老熬夜打游戏</sub>到三四点</p>
 	
-<p><strong>你能做到几点    
+<p><strong>你能做到几点    <!-- strong 格式错误，在里面的还是要在里面，不能相互包含 -->
 <form action="demo-form.php">
  <input list="browsers">
- </strong> <datalist id="browsers">
+ </strong> <datalist id="browsers">   <!-- datalist 格式错误，在里面的还是要在里面，不能相互包含 -->
   <option value="不抓头发">
   <option value="早睡觉">
   <option value="少看手机">
@@ -44,5 +43,16 @@
   <input type="submit" value="提交">
   </form>
 </datalist>
-	</body>
+
+  <!-- 以下是代码格式, 1. 成对标签 要么写一行，要么要对齐，使用 tab 键一次缩进四个 空格 ，昨天教你的 notepad++ 设置里面 -->
+  <table>
+    <tr><td>1</td><td>2</td><td>3</td></tr>
+    <tr>
+      <td>q</td>
+      <td>w</td>
+      <td>e</td>
+    </tr>
+  </table>
+
+</body>
 </html>
