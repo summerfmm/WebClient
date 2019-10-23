@@ -2,7 +2,7 @@
 <html lang="en">
 <head> 
     <meta charset="UTF-8">
-    <title>方蒙蒙是逗逼</title>    <!-- 这个就是网页显示的标题 -->
+    <title>柯顺锋是逗逼呀</title>    <!-- 这个就是网页显示的标题 -->
 </head>
 <body>
     aaaa
@@ -75,26 +75,17 @@
         <source src="123.ogg"type="audio/ogg"/>
         <source src="123.mp3" type="audio/mpeg"/>
     </audio>
-    <body>  <!-- body 标签不能写在这里，且 整个 html 文件有且只有一个 body -->
     <video width="320" height="240" controls>
         <source src="hh.mp4" type="video/mp4"/>
         <source src="hh.ogg" type="video/ogg"/>
     </video>
-    </body> <!-- 同上面 body 标签一样 -->
     <a href="// http://baidu.com">访问百度!</a>
     <link rel="stylesheet" type="text/css" href="styles.css"><!-- 改标签不是放在 body 标签里面的 是放在 head 标签里面的，head 在最上面  --> 
     <h1>我是柯顺锋以后听方蒙蒙的话。</h1>
     <p>保证</p>
-    <body><!-- 同上面 body 标签一样 -->
-
-
     <nav>
         <a href="/ke">这是绝对路径</a> |<a href="./shun">这是相对路径</a>|<a href="shun">这也是相对路径，跟上一个一样</a> |<a href="https://www.baidu.com">这是链接到别的网站的，绝对和相对都是链接到自己网站的</a>|
     </nav>
-
-    </body><!-- 同上面 body 标签一样 -->
-
-    <body><!-- 同上面 body 标签一样 -->
 
     <h2>以后家务柯顺锋做：</h2>
     <ul>
@@ -107,17 +98,16 @@
         <li>以后不能顶嘴</li>
         <li>不能强找理由</li>
     </ol>
-    <menu type="toolbar"><!-- 成对标签只有一个 -->
-        <li><!-- li 标签不能单独使用，只能放在 ul 或 ol 等标签里面 -->
+    <menu type="toolbar"></menu>
     <menu label="File">
         <button type="button" onclick="file_new()">早睡</button>
         <button type="button" onclick="file_open()">多穿衣服</button>
     </menu>
     <table border="1">
-        < <caption>柯顺锋的<span style="color:blue;font-weight:bold"/>优点 <!-- 行首多了一个 小括号  -->
-         <colgroup><!-- 没有匹配的 开始标签 -->
-         <col span="2" style="background-color:red"><!-- 单标签没有关闭，应该 / 大于号结尾 -->
-         <col span="3" style="background-color:pink"><!-- 单标签没有关闭，应该 / 大于号结尾 -->
+         <caption>柯顺锋的<span style="color:blue;font-weight:bold"/>优点 
+         <col span="2" style="background-color:red"/>
+         <col span="3" style="background-color:pink"/>
+		 </colgroup>
          <tr>
             <th>1</th/>
             <th>2</th/>
@@ -127,15 +117,49 @@
             <th>做事情很认真</th>
             <th>带我出去玩呀</th>
             <th>每天都记得来找我呀</th>
-            <th>带我吃好吃的</th/>
+            <th>带我吃好吃的</th>
         </tr>
     </table>
     <details>
-    <summary>以上来自方蒙蒙的评价。</summary><!-- 这里已经 关闭了 summary 标签了-->
+    <summary>以上来自方蒙蒙的评价。</summary>
 
     <p>认真的评价</P>
     <p>请继续保持</p>
-    </summary><!-- 没有匹配的 开始标签 -->
-
-</body>
-</html>
+	</details>
+	
+	<style>
+		h1.intro
+	    {color:blue;}
+		p.important
+		{color:red;}
+	</style>
+	<h1 class="intro">柯顺锋</h1>
+	<p class="important">2019.10.22昨晚又熬夜</p>
+	<form>
+		<input type="button" value="柯顺锋是逗逼" onclick="msg()"/>
+		<input type="checkbox" value="大逗逼"/> 大逗逼<br/>
+		<input type="checkbox" value="大笨蛋"/> 大笨蛋<br/>
+		<input type="submit"/>
+		选择你喜欢的颜色：<input type="color" name="color"/><br/>
+		<input type="submit"/>
+		出生：<input type="date"/> <input type="submit"/>
+		出生：<input type="datetime-local" name="bdaytime"/> <input type="submit"/>
+		邮件：<input type="email" name="邮件"/> <input type="submit"/>
+		选择文件：<input type="file" name="文件"/> <input type="submit"/>
+		姓：<input type="txet" name="姓"/>
+		名：<input type="txet" name="名"/>
+		<input type="image" src="img_submit.gif" alt="Submit"/>
+		<input type="hidden" name="country" value="Norway"/>
+		<input type="submit" value="提交"/>
+		数量：<input type="number" name="quantity" min="0" max="10"/> <input type="submit" value="提交"/>
+		<input type="password" name="keshunfeng"/> <input type="submit" value="提交"/>
+		<input type="radio" name="女" value="女"/> 女</br>
+		<input type="radio" name="男" value="男"/> 男</br>
+		<input type="submit" value="提交"/>
+		<input type="range" name="points" min="1" max="10"/> <input type="reset" value="重置"/> <input type="submit"/>
+		添加你的主页: <input type="url" name="homepage"/><br/>
+		<input type="submit"/>
+		 选择周: <input type="week" name="year_week"/>
+		<input type="submit"/>
+	</form>
+	 
