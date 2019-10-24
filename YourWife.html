@@ -15,15 +15,15 @@
     keshunfeng  sb
     <b/>
     <br/>
-    <b> <!--这个是跟哪个标签成对的？-->
-        <br/>
-        ksf 四眼
-        <b/>
-        <br/>
-        <img src="a.jpg" width="200" height="320"/>
-        <br/>
-        柯顺锋<i> 爱摸头发</i><mark>   吃饭慢</mark>
-        <pre>
+    <b> 
+    <br>
+     ksf 四眼
+	<b/>
+	<br/>
+	<img src="a.jpg" width="200" height="320"/>
+	<br/>
+	柯顺锋<i> 爱摸头发</i><mark>   吃饭慢</mark>
+	<pre>
     爱看视频
     一睁开眼睛    就看
     <progress value="25"max="100"></progress>
@@ -79,8 +79,8 @@
         <source src="hh.mp4" type="video/mp4"/>
         <source src="hh.ogg" type="video/ogg"/>
     </video>
-    <a href="// http://baidu.com">访问百度!</a><!-- href 中放 http 和 https 带头的 不需要在前面加 两个 // -->
-    <link rel="stylesheet" type="text/css" href="styles.css"><!-- 改标签不是放在 body 标签里面的 是放在 head 标签里面的，head 在最上面  -->
+    <a href="http://baidu.com">访问百度!</a>
+    <link rel="stylesheet" type="text/css" href="styles.css"><!-- 改标签不是放在 body 标签里面的 是放在 head 标签里面的，head 在最上面  -->不懂
     <h1>我是柯顺锋以后听方蒙蒙的话。</h1>
     <p>保证</p>
     <nav>
@@ -104,15 +104,15 @@
         <button type="button" onclick="file_open()">多穿衣服</button>
     </menu>
     <table border="1">
-        <caption>柯顺锋的<span style="color:blue;font-weight:bold"/>优点  <!-- caption 不是单标签不能这么关闭 -->
+        <caption>柯顺锋的<span style="color:blue;font-weight:bold"></caption>优点  <!-- caption 不是单标签不能这么关闭 -->
             <col span="2" style="background-color:red"/>
             <col span="3" style="background-color:pink"/>
             </colgroup>
             <tr>
-                <th>1</th/>
-                <th>2</th/>
-                <th>3</th/> <!--  这个关闭标签是怎么回事-->
-                <th>4</th/>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th> 
+                <th>4</th>
             <tr>
                 <th>做事情很认真</th>
                 <th>带我出去玩呀</th>
@@ -138,28 +138,43 @@
         <input type="button" value="柯顺锋是逗逼" onclick="msg()"/>
         <input type="checkbox" value="大逗逼"/> 大逗逼<br/>
         <input type="checkbox" value="大笨蛋"/> 大笨蛋<br/>
-        <input type="submit"/>
         选择你喜欢的颜色：<input type="color" name="color"/><br/>
-        <input type="submit"/>
-        出生：<input type="date"/> <input type="submit"/>
-        出生：<input type="datetime-local" name="bdaytime"/> <input type="submit"/>
-        邮件：<input type="email" name="邮件"/> <input type="submit"/>
-        选择文件：<input type="file" name="文件"/> <input type="submit"/>
+        出生：<input type="date"/>
+        出生：<input type="datetime-local" name="bdaytime"/> 
+        邮件：<input type="email" name="邮件"/> 
+        选择文件：<input type="file" name="文件"/>
         姓：<input type="txet" name="姓"/>
         名：<input type="txet" name="名"/>
         <input type="image" src="img_submit.gif" alt="Submit"/>
         <input type="hidden" name="country" value="Norway"/>
-        <input type="submit" value="提交"/>
-        数量：<input type="number" name="quantity" min="0" max="10"/> <input type="submit" value="提交"/>
-        <input type="password" name="keshunfeng"/> <input type="submit" value="提交"/>
-        <input type="radio" name="女" value="女"/> 女</br>
-        <input type="radio" name="男" value="男"/> 男</br>  <!--radio 类型的 input name 属性要设置成一样的  这样点了一个 另一个就取消了，你现在不一样，两个同时可以选中-->
-        <input type="submit" value="提交"/>
-        <input type="range" name="points" min="1" max="10"/> <input type="reset" value="重置"/> <input type="submit"/>
+        数量：<input type="number" name="quantity" min="0" max="10"/> 
+        <input type="password" name="keshunfeng"/> 
+        <input type="radio" name="男" value="女"/> 女</br>
+        <input type="radio" name="女" value="男"/> 男</br>  <!--radio 类型的 input name 属性要设置成一样的  这样点了一个 另一个就取消了，你现在不一样，两个同时可以选中-->
+        <input type="range" name="points" min="1" max="10"/> <input type="reset" value="重置"/> 
         添加你的主页: <input type="url" name="homepage"/><br/>
-        <input type="submit"/>
         选择周: <input type="week" name="year_week"/>
         <input type="submit"/><!-- 一个 form 标签里面 一般只要一个 type= submit 的 input 就够，这里 太多了 -->
     </form>
+	今天天气如何<select autofocus>
+	<option value="晴天">晴天</option>
+	<option value="雨天">雨天</option>
+	<option value="多云">多云</option>
+	<option value="阴天">阴天</option>
+	</select>
+	<form action="form-action.php">
+	<select name="天气" multiple>
+	<option value="晴天">晴天</option>
+	<option value="雨天">雨天</option>
+	<option value="多云">多云</option>
+	<option value="阴天">阴天</option>
+	</select>
+	<input type="submit">
+	<div align="center" style="border:solid blue">
+	柯顺锋最近都不陪我哼！
+	</div>
+	</form>			
+	</body>
+	</html>
     <!-- 最后的 html 和 body 的关闭标签 哪儿去了 -->
-    <!-- 我记得不是叫你吧 notepad++ 设置改成 tab 键替换为 4个空格，为什么这里还是有 tab 键  -->
+    <!-- 我记得不是叫你吧 notepad++ 设置改成 tab 键替换为 4个空格，为什么这里还是有 tab 键  -->我也不知道啊
