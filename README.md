@@ -65,7 +65,16 @@
 音频标签 <audio></audio> 同上
 
 meta标签  <meta charset="UTF-8">  charst:字符集  utf-8：属于字符集中的一种编码格式  作用：设置网页编码-->防止网页乱码
-
+          <meta name="keywords"content="写的关键字"（网页关键字为搜索引擎提供）
+          <meta name="description" content="关键信息"(网页描述信息）
+          <meta http-equiv="refresh" content="几秒；网址 "(实现网页重定向)
+link标签 设置网页图片
+         <link rel="icon" href="favotion.ico/"> 注意：一般将网页的图标放置到网站的根目录下
+表格标签   
+    容器<table></table>  行<tr></tr>   列<td></td>  作用：数据展示  网页布局
+    属性：border:设置边框 默认为0 height:设置高度 width:设置宽度 cellspacing:设置行和列的距离 默认距离是2  align:设置对齐方式（left/center/right) bgcolor:设置背景颜色
+其他标签 <th></th>设置表格标题用法与td一样
+    
 
 
 
