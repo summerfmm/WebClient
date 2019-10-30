@@ -41,9 +41,45 @@
 <article></article> 该标签的用法和div用法一样（网页布局） 标签的用法和div用法一样（网页布局） 该标签有语义，div没有语义
 <aside></adise> 在网页布局中侧边栏部分 该标签的用法和div用法一样（网页布局） 该标签有语义，div没有语义
 <section></section> 该标签的用法和div用法一样（网页布局） 该标签有语义，div没有语义
+10.30 列表
+有序列表 ：
+ <ol>
+   <li>列表项</li>
+ </ol>
+ 无序列表：
+ <ul>
+   <li>列表项</li>
+ </ul>
+自定义列表：（一般用于网页尾部）
+<dl>
+  <dt>列表项的标题</dt>
+  <dd>列表项</dd>
+</dl>
+多媒体标签
+视频标签
+<video></video> 属性：src=" " 设置视频的路劲  controls 显示控制栏  loop 设置视频循环播放  autoplay 设置自动播放
+                或者<video controls>
+                      <source src=" ">
+                      <source src=" ">
+                    </video>
+音频标签 <audio></audio> 同上
 
-     
+meta标签  <meta charset="UTF-8">  charst:字符集  utf-8：属于字符集中的一种编码格式  作用：设置网页编码-->防止网页乱码
+
+
+
+
+  
                      
-     
-                 
  
+
+
+
+
+
+
+
+
+
+
+
