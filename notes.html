@@ -91,7 +91,7 @@ link标签 设置网页图片
        value:设置当前控件默认值
        placeholder:设置控件的提示信息
   密码输入框： <input type="password" name=" ">
-  复选框：<input type="checkbox" name="">
+  复选框：<input type="checkbox" name=" ">
         属性：checked 表示设置选中
   单个复选框：<input type=“radio” name=" "> 如果需要单个选项需要设置名字相同属性
   下拉列表：<select>
@@ -117,17 +117,28 @@ link标签 设置网页图片
  CSS   标签选择器
        
        类选择器
-       <style type="txst/css">
+       <style type="text/css">
        .test{ 
             color：red；
+            font-size:100px;
+			      background:pink;
             }
        <p class="test">文字</p>
        
        类命名规范：自定义类名不能以纯数字或数字开头 
                   不推荐用汉字定义类名
                   不能使用特殊符号
-                 一般具有一定语义的单词或者汉语拼音去定义一个类名
-     
+                 一般具有一定语义的单词或者汉语拼音去定义一个类名 
+        属性：
+         background：背景颜色
+         font-size:20px    设置文字大小
+         txet-align:left/center/rihgt   设置内容的对齐方式（文字，图片）备注：该属性只能用在块级元素中比如（p div...）
+         txet-indet:20px/ 2em        设置文字首行缩进 1em代表一个汉字大小  备注：该属性只能用在块级元素中比如（p div...）
+ ID 选择器
+ 定义：#自定义id名称（属性：值）       
+ 调用：标签通过id属性调用id样式 
+ 同上用法差不多
+   
        
        
 
